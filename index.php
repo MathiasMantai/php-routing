@@ -6,7 +6,7 @@ $routes = array(
         'controller'   => 'controller/IndexController.php'
     ),
     array(
-        'path_pattern' => '/^user\/edit\/(?P<user_id>\d+)$/',
+        'path_pattern' => '/^user\/(?P<user_id>\d+)$/',
         'controller'   => 'controller/UserController.php'
     ),
 );
