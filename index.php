@@ -3,11 +3,11 @@
 $routes = array(
     array(
         'path_pattern' => '/^index$/',
-        'controller'   => 'controller/index.ctrl.php'
+        'controller'   => 'controller/IndexController.php'
     ),
     array(
         'path_pattern' => '/^user\/edit\/(?P<user_id>\d+)$/',
-        'controller'   => 'controller/user-edit.ctrl.php'
+        'controller'   => 'controller/UserController.php'
     ),
 );
 
